@@ -19,9 +19,9 @@ extensions.configure<PublishingExtension> {
         create<MavenPublication>("maven") {
             from(components["java"])
             pom {
-                name.set("Velocity")
+                name.set("AyorProxy")
                 description.set("The modern, next-generation Minecraft server proxy")
-                url.set("https://papermc.io/software/velocity")
+                url.set("https://discord.ayormc.net")
                 scm {
                     url.set("https://github.com/PaperMC/Velocity")
                     connection.set("scm:git:https://github.com/PaperMC/Velocity.git")
